@@ -13,7 +13,7 @@
     margin: 10px;
     width: calc(33.33% - 20px); /* Adjust the width as needed */
     text-align: center;
-} height: auto;
+    height: auto;
 }
 
 .product h2 {
@@ -47,3 +47,33 @@ button {
 button:hover {
     background-color: #FF0000; /* Change to a darker shade on hover */
 }
+
+
+/* Styles for the product showcase */
+.productShowcase {
+    display: flex;
+    align-items: center;
+}
+
+.productImages {
+    width: 40%; /* Adjust the width as needed */
+    display: flex;
+    justify-content: center;
+}
+
+.productImages img {
+    max-width: 100%;
+    height: auto;
+    display: none;
+}
+
+.productImages img.active {
+    display: block;
+}
+
+.productDetails {
+    width: 60%; /* Adjust the width as needed */
+    padding: 20px;
+}
+
+/* Add styles for the product details as needed */
